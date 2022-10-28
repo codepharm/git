@@ -1,0 +1,46 @@
+
+body {
+  background-color: pink;
+  text-align: center;
+}
+
+nav {
+  background: rgb(145, 97, 137);
+}
+
+.logo {
+  float: left;
+  color: white;
+  font-size: 27px;
+  font-weight: 600px;
+  line-height: 70px;
+  padding-left: 30px;
+}
+
+nav::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+nav ul {
+  font: left;
+  list-style: none;
+  margin-right: 40px;
+  position: relative;
+}
+
+nav ul li {
+  float: left;
+  display: inline-block;
+  background: rgb(224, 148, 204);
+  margin: 0 100px;
+}
+
+nav ul li a {
+  color: red;
+  text-decoration: none;
+  line-height: 70px;
+  font-size: 18px;
+  padding: 8px 15px;
+}
