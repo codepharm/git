@@ -4,6 +4,10 @@ body {
   text-align: center;
 }
 
+h2 {
+  color: rgb(20, 70, 163);
+}
+
 nav {
   background: rgb(145, 97, 137);
 }
@@ -43,4 +47,33 @@ nav ul li a {
   line-height: 70px;
   font-size: 18px;
   padding: 8px 15px;
+}
+
+.container {
+  display: block;
+  width: 100%x;
+  height: 400px;
+  background-color: hotpink;
+  border: 3px dotted lightblue;
+}
+
+.container1 {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: yellow;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.peta1 {
+  background-color: orange;
+}
+
+.flow {
+  background-color: steelblue;
+}
+
+.stream {
+  background-color: orange;
 }
